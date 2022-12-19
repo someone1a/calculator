@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form">
+        <form action="" onsubmit="calcular()">
+            <label for="n1">Ingrese el primer Numero</label><br>
+            <input type="number" name="n1" id="n1"><br>
+            <label for="n2">Ingrese el Segundo Numero</label><br>
+            <input type="number" name="n2" id="n2"><br>
+            <label for="choose">Elija la cuenta a Utilizar</label><br>
+            <select name="" id="choose">
+                <option value="none">None</option>
+                <option value="suma">Sumar</option>
+                <option value="resta">Restar</option>
+                <option value="multi">Multiplicar</option>
+                <option value="division">Dividir</option>
+            </select>
+            <input type="submit" value="realizar el calculo" class="btn-calc"><br>
+            <span>Resultado <span id="demo"></span></span>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
