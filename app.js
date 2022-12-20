@@ -1,7 +1,7 @@
 function calcular() {
     let opcion = document.getElementById("choose").value;
-    let n1 = document.getElementById("n1").value;
-    let n2 = document.getElementById("n2").value;
+    let n1 = parseInt(document.getElementById("n1").value)
+    let n2 = parseInt(document.getElementById("n2").value)
     if (opcion == "suma") {
         let result = parseInt(n1+n2);
         alert(result)

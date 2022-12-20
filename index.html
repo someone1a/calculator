@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
     <div class="form">
@@ -16,7 +17,7 @@
             <label for="n2">Ingrese el Segundo Numero</label><br>
             <input type="number" name="n2" id="n2"><br>
             <label for="choose">Elija la cuenta a Utilizar</label><br>
-            <select name="" id="choose">
+            <select name="" id="choose" class="content-select">
                 <option value="none">None</option>
                 <option value="suma">Sumar</option>
                 <option value="resta">Restar</option>
@@ -24,7 +25,6 @@
                 <option value="division">Dividir</option>
             </select>
             <input type="submit" value="realizar el calculo" class="btn-calc"><br>
-            <span>Resultado <span id="demo"></span></span>
         </form>
     </div>
     <script src="app.js"></script>
